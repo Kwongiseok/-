@@ -111,10 +111,23 @@ button:hover {
   font-size: 16px;
   color: rgb(115, 103, 92);
   transition: opacity 0.3s ease 0s;
+  min-height: 40px;
+  line-height: 40px;
+}
+.whole__category::before {
+  margin-right: 4px;
+  position: relative;
+  display: inline-block;
+  content: " ";
+  width: 20px;
+  height: 22px;
+  background-size: 20px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAWJJREFUaAXt2r9Kw1AUx/FTNcT+QRTM6OSgi7uv4DO426nSR+gjFDtV0M0H0MVXcNZZEByKg8RBattLkibieM8gLe29yTfjCbf3dz4nBG6oCBcCCCCAAAIIILAigZq2z3B4Eby+ZGfafZfrhye1x3b72tgybtmKRe3tOdhJZHav3Xe5nmffz/N92jJu2IplrtFwmadb9Fa5CasvraTZnMnYPPg48aSRZ+dCAAEEEEAAAQQQQACBpQqon3h63e7utxk/LXW3Ff1YK2ic9vr9L9t26mlpasxmJtmRbZHrtSK7lrFy52Ea1h6FstQrN2H1pRVGUZzEH8c+Tjbci2Ifc5MZAQQQQAABBBBAwCsB9YvHVacTvsvk3Ktu/sIeyPbd5WAwtWVXDw+jNG2lIje2Ra7XRpIWf8axNly54yENu/64LpqvchNWX1qmXp/Ij7ldVHQd63+zr2Nj9kQAAQQQQOB/AnNLoUEKQvT/GQAAAABJRU5ErkJggg==);
 }
 .category__items {
   display: flex;
   align-items: center;
+  width: 40%;
 }
 .category__item {
   position: relative;
@@ -176,12 +189,18 @@ button:hover {
   content: "";
   position: absolute;
   top: 9px;
-  right: -11px;
+  right: -1px;
   width: 1px;
   height: 20px;
   border-right: 1px solid rgb(238, 238, 238);
 }
-
+.icon__container {
+  border: 0px;
+  margin: 0px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+}
 /* main__contents */
 .main__contents__wrapper {
   width: 100%;
