@@ -557,6 +557,9 @@ image:hover {
 .horizontal__item:first-child {
   margin-right: 80px;
 }
+.horizontal__item:hover .item__image {
+  transform: scale(1.1);
+}
 .horizontal__item__image__wrapper {
   position: relative;
   overflow: hidden;
