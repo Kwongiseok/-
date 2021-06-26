@@ -380,3 +380,15 @@ li {
   width: 100%;
   height: 100%;
 }
+
+/* 기획전 배너 */
+.ad__banner__content {
+  display: flex;
+  flex-direction: row;
+  background: rgb(255, 255, 255);
+  margin-bottom: 36px;
+}
+.ad__banner__title__wrapper {
+  margin-right: 39px;
+  flex: 1, 1, 0%;
+}
