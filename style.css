@@ -18,7 +18,11 @@ ul {
 li {
   list-style: none;
 }
+li:hover,
 button:hover {
+  cursor: pointer;
+}
+image:hover {
   cursor: pointer;
 }
 /* local */
@@ -110,7 +114,6 @@ button:hover {
   font-weight: bold;
   font-size: 16px;
   color: rgb(115, 103, 92);
-  transition: opacity 0.3s ease 0s;
   min-height: 40px;
   line-height: 40px;
 }
@@ -213,7 +216,22 @@ button:hover {
   background: rgb(255, 255, 255);
 }
 /* ad__banner */
-
+.slider__banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slide__image {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.slide__image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 /* mart__items in article tag*/
 .mart__items {
   width: 100%;
@@ -307,7 +325,12 @@ button:hover {
 }
 .article__item {
   max-width: 144px;
-  height: 100%;
+  height: auto;
+  flex: 1 1 0%;
+  flex-direction: column;
+}
+.article__item:hover .item__image {
+  transform: scale(1.1);
 }
 .article__item:first-child {
   margin-left: 0px;
@@ -370,6 +393,9 @@ button:hover {
   transition: all 0.3s ease 0s;
   display: block;
 }
+.item__image:hover {
+  transform: scale(1.1);
+}
 
 /* baemin-banner */
 .baemin__banner__container {
@@ -420,7 +446,6 @@ button:hover {
   font-weight: 400;
   font-size: 15px;
 }
-
 .banner__button__wrapper {
   display: flex;
   flex-direction: row;
@@ -461,6 +486,13 @@ button:hover {
   border-radius: 100%;
   width: 100%;
   height: 100%;
+}
+.banner__button__image {
+  transition: all 0.3s ease 0s;
+}
+.button__image:hover,
+.banner__button__image:hover {
+  transform: scale(1.1);
 }
 
 /* 기획전 배너 */
@@ -578,12 +610,15 @@ button:hover {
 .sample__banner {
   background: rgb(255, 255, 255);
   padding-top: 16px;
+  overflow: hidden;
 }
 
-.transition__hover {
+.sample__banner__image {
   transition: all 0.3s ease 0s;
 }
-
+.sample__banner__image:hover {
+  transform: scale(1.1);
+}
 .footer {
   font-size: 12px;
   line-height: 18px;
