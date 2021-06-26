@@ -8,6 +8,12 @@
 }
 body {
   margin: 0;
+  width: 100%;
+  min-width: 1080px;
+  font-family: Noto-Sans-KR, sans-serif;
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: -0.5px;
 }
 ul {
   margin: 0px;
