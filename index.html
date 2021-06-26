@@ -5,53 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="https://cdn-mart.baemin.com/front-end/assets-static/mart-favicon.ico" />
+    <link
+      rel="icon"
+      href="https://cdn-mart.baemin.com/front-end/assets-static/mart-favicon.ico"
+    />
     <title>배민 상회 클론 코딩</title>
   </head>
   <body>
     <header class="header">
-      <nav class="page__menu">
-        <ul class="menu__items">
-          <li class="menu__item"><a>배민사장님광장</a></li>
-          <li class="menu__item"><a>배민셀프서비스</a></li>
-          <li class="menu__item clicked"><a>배민상회</a></li>
-          <li class="menu__item"><a>배민아카데미</a></li>
-          <li class="menu__item"><a>장부</a></li>
-        </ul>
-      </nav>
-      <nav class="auth__menu">
-        <ul class="menu__items">
-          <li class="menu__item"><a>로그인</a></li>
-          <li class="menu__item"><a>회원가입</a></li>
-          <li class="menu__item"><a>고객센터</a></li>
-        </ul>
-      </nav>
+      <div class="page__menu__container">
+        <nav class="page__menu">
+          <ul class="menu__items">
+            <li class="menu__item"><a>배민사장님광장</a></li>
+            <li class="menu__item"><a>배민셀프서비스</a></li>
+            <li class="menu__item clicked"><a>배민상회</a></li>
+            <li class="menu__item"><a>배민아카데미</a></li>
+            <li class="menu__item"><a>장부</a></li>
+          </ul>
+        </nav>
+        <nav class="auth__menu">
+          <ul class="menu__items">
+            <li class="menu__item"><a>로그인</a></li>
+            <li class="menu__item"><a>회원가입</a></li>
+            <li class="menu__item"><a>고객센터</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <nav class="category__menu">
-      <ul class="category__items">
-        <li class="whole__category">전체 카테고리</li>
-        <li class="category__item">든든배송</li>
-        <li class="category__item">상회가만든</li>
-        <li class="category__item">샘플신청</li>
-        <li class="category__item">초특가</li>
-      </ul>
-      <div class="logo__container">
-        <img
-          class="logo"
-          src="https://cdn-mart.baemin.com/front-end/assets/20210625102455/images/horizontal_logo.bb7a0a2636d9a2a0de1211d2f1e8b225.png"
-          alt="baemin-mart-logo"
-        />
+      <div class="category__items__container">
+        <ul class="category__items">
+          <li class="whole__category">전체 카테고리</li>
+          <li class="category__item">든든배송</li>
+          <li class="category__item">상회가만든</li>
+          <li class="category__item">샘플신청</li>
+          <li class="category__item">초특가</li>
+        </ul>
+        <div class="logo__container">
+          <img
+            class="logo"
+            src="https://cdn-mart.baemin.com/front-end/assets/20210625102455/images/horizontal_logo.bb7a0a2636d9a2a0de1211d2f1e8b225.png"
+            alt="baemin-mart-logo"
+          />
+        </div>
+        <ul class="info__items">
+          <li class="info__item">쿠폰함</li>
+          <li class="info__item">장바구니</li>
+          <li class="info__item">상품검색</li>
+          <li class="info__item">나의상회</li>
+        </ul>
       </div>
-      <ul class="info__items">
-        <li class="info__item">쿠폰함</li>
-        <li class="info__item">장바구니</li>
-        <li class="info__item">상품검색</li>
-        <li class="info__item">나의상회</li>
-      </ul>
     </nav>
     <section class="main__contents__wrapper">
       <div class="main__contents">
-        <article class="ad__banner"><span>슬라이더</span></article>
+        <article class="ad__banner">
+          <div class="slider__banner">
+            <img
+              src="https://cdn-mart.baemin.com/image/inventory/2021-01-07/cd9ef639-e764-4aed-aefa-b560a723bca7.jpg"
+              alt="banner__image"
+            />
+          </div>
+        </article>
         <article class="mart__items">
           <div class="items__container">
             <div class="article__header">
@@ -61,7 +75,9 @@
                 </div>
                 <button class="more__navigate__button">더보기 ></button>
               </div>
-              <h3 class="article__subtitle">사장님들이 많이 찾는 배달비품 모음</h3>
+              <h3 class="article__subtitle">
+                사장님들이 많이 찾는 배달비품 모음
+              </h3>
             </div>
             <ul class="article__items">
               <li class="article__item">
@@ -87,17 +103,16 @@
                 <div class="image__container">
                   <img
                     class="item__image"
-                    src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                    alt=""
+                    src="https://cdn-mart.baemin.com/sellergoods/main/cfe43054-bada-4592-8861-a673f6857234.jpg"
+                    alt="item__image"
                   />
                 </div>
                 <div class="article__item__info">
-                  <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                  <span class="info__name"> 냉면용기(소/FP) </span>
                   <div class="item__detail__container">
-                    <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                    <span class="item__detail__info">개당 162원 / 400ea</span>
                     <div class="item__price__container">
-                      <span class="item__price">53,400원</span>
+                      <span class="item__price">64,700원</span>
                     </div>
                   </div>
                 </div>
@@ -106,17 +121,18 @@
                 <div class="image__container">
                   <img
                     class="item__image"
-                    src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                    alt=""
+                    src="https://cdn-mart.baemin.com/goods/12/1551257226350m0.jpg"
+                    alt="item__image"
                   />
                 </div>
                 <div class="article__item__info">
-                  <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                  <span class="info__name">
+                    도시락용기-2호(JH-0807/친환경)
+                  </span>
                   <div class="item__detail__container">
-                    <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                    <span class="item__detail__info">개당 213원 / 200ea</span>
                     <div class="item__price__container">
-                      <span class="item__price">53,400원</span>
+                      <span class="item__price">42,500원</span>
                     </div>
                   </div>
                 </div>
@@ -125,17 +141,16 @@
                 <div class="image__container">
                   <img
                     class="item__image"
-                    src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                    alt=""
+                    src="https://cdn-mart.baemin.com/goods/85/1537405626217m0.jpg"
+                    alt="item__image"
                   />
                 </div>
                 <div class="article__item__info">
-                  <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                  <span class="info__name"> 탕용기(소) </span>
                   <div class="item__detail__container">
-                    <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                    <span class="item__detail__info">개당 285원 / 200ea</span>
                     <div class="item__price__container">
-                      <span class="item__price">53,400원</span>
+                      <span class="item__price">57,000원</span>
                     </div>
                   </div>
                 </div>
@@ -144,17 +159,16 @@
                 <div class="image__container">
                   <img
                     class="item__image"
-                    src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                    alt=""
+                    src="https://cdn-mart.baemin.com/sellergoods/main/498642e7-bcba-42cc-966e-6447e5287dc8.jpg"
+                    alt="item__image"
                   />
                 </div>
                 <div class="article__item__info">
-                  <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                  <span class="info__name"> 냉면용기(대/CN/흑) </span>
                   <div class="item__detail__container">
-                    <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                    <span class="item__detail__info">개당 192원 / 300ea</span>
                     <div class="item__price__container">
-                      <span class="item__price">53,400원</span>
+                      <span class="item__price">57,500원</span>
                     </div>
                   </div>
                 </div>
@@ -163,17 +177,16 @@
                 <div class="image__container">
                   <img
                     class="item__image"
-                    src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                    alt=""
+                    src="https://cdn-mart.baemin.com/goods/68/1552450854658m0.jpg"
+                    alt="item__image"
                   />
                 </div>
                 <div class="article__item__info">
-                  <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                  <span class="info__name"> 죽용기(소) </span>
                   <div class="item__detail__container">
-                    <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                    <span class="item__detail__info">개당 173원 / 500ea</span>
                     <div class="item__price__container">
-                      <span class="item__price">53,400원</span>
+                      <span class="item__price">86,500원</span>
                     </div>
                   </div>
                 </div>
@@ -196,20 +209,59 @@
               <ul class="article__items__floor">
                 <li class="article__item">
                   <div class="image__container">
+                    <div class="item__sale">9%</div>
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/goods/27/1554117970000_m.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 페르디가오 브라질 닭정육 (냉동) 2kg 6개
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg당 2,990원 / 6ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price__sale">35,880원</span>
+                        <span class="item__price__prev">39,600원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="article__item">
+                  <div class="image__container">
+                    <div class="item__sale">5%</div>
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/goods/85/200615_%EC%AB%84%EA%B9%83_%EC%B9%98%EC%A6%88%EB%B3%BC(25gx30%EC%9E%85)5%EA%B0%9C_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 쫄깃 치즈볼 (25g*30입) 5개</span
+                    >
+                    <div class="item__detail__container">
+                      <span class="item__detail__info">개당 8,778원 / 5ea</span>
+                      <div class="item__price__container">
+                        <span class="item__price__sale">43,890원</span>
+                        <span class="item__price__prev">46,200원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -217,18 +269,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
+                      src="https://cdn-mart.baemin.com/sellergoods/main/d78ee189-c2bc-43a1-98b3-bb16a287650a.jpg"
                       alt=""
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 칠레산 냉동 딸기 1kg
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg 당 4,590원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">4,590원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -236,18 +297,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/sellergoods/list/d26d12fd-9563-4ad0-bbd5-192063e4f041.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 두메코 네덜란드산 돈삼겹살
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >개당 165,677원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">165,6770원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -255,18 +325,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/goods/45/1554345040673m0.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 사세 순살치킨 가라게 1kg 10개
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg 당 8,900원 / 10ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">89,000원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -274,153 +353,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/goods/34/%EC%97%B0%EC%96%B4_02_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 노르웨이 생연어필렛 trim E 1.9~2.1kg
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >개당 50,600원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">50,600원</span>
                       </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <ul class="article__items__floor">
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="article__item">
-                  <div class="image__container">
-                    <img
-                      class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
-                    <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
-                      <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
-                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -428,20 +381,59 @@
               <ul class="article__items__floor">
                 <li class="article__item">
                   <div class="image__container">
+                    <div class="item__sale">9%</div>
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/goods/27/1554117970000_m.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 페르디가오 브라질 닭정육 (냉동) 2kg 6개
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg당 2,990원 / 6ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price__sale">35,880원</span>
+                        <span class="item__price__prev">39,600원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="article__item">
+                  <div class="image__container">
+                    <div class="item__sale">5%</div>
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/goods/85/200615_%EC%AB%84%EA%B9%83_%EC%B9%98%EC%A6%88%EB%B3%BC(25gx30%EC%9E%85)5%EA%B0%9C_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 쫄깃 치즈볼 (25g*30입) 5개</span
+                    >
+                    <div class="item__detail__container">
+                      <span class="item__detail__info">개당 8,778원 / 5ea</span>
+                      <div class="item__price__container">
+                        <span class="item__price__sale">43,890원</span>
+                        <span class="item__price__prev">46,200원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -449,18 +441,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
+                      src="https://cdn-mart.baemin.com/sellergoods/main/d78ee189-c2bc-43a1-98b3-bb16a287650a.jpg"
                       alt=""
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 칠레산 냉동 딸기 1kg
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg 당 4,590원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">4,590원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -468,18 +469,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/sellergoods/list/d26d12fd-9563-4ad0-bbd5-192063e4f041.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 두메코 네덜란드산 돈삼겹살
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >개당 165,677원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">165,6770원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -487,18 +497,27 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/goods/45/1554345040673m0.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 사세 순살치킨 가라게 1kg 10개
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg 당 8,900원 / 10ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">89,000원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -506,18 +525,87 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
-                      alt=""
+                      src="https://cdn-mart.baemin.com/goods/34/%EC%97%B0%EC%96%B4_02_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+                      alt="item__image"
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 노르웨이 생연어필렛 trim E 1.9~2.1kg
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >개당 50,600원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">50,600원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="article__items__floor">
+                <li class="article__item">
+                  <div class="image__container">
+                    <div class="item__sale">9%</div>
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/goods/27/1554117970000_m.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 페르디가오 브라질 닭정육 (냉동) 2kg 6개
+                    </span>
+                    <div class="item__detail__container">
+                      <span class="item__detail__info"
+                        >1kg당 2,990원 / 6ea</span
+                      >
+                      <div class="item__price__container">
+                        <span class="item__price__sale">35,880원</span>
+                        <span class="item__price__prev">39,600원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="article__item">
+                  <div class="image__container">
+                    <div class="item__sale">5%</div>
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/goods/85/200615_%EC%AB%84%EA%B9%83_%EC%B9%98%EC%A6%88%EB%B3%BC(25gx30%EC%9E%85)5%EA%B0%9C_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 쫄깃 치즈볼 (25g*30입) 5개</span
+                    >
+                    <div class="item__detail__container">
+                      <span class="item__detail__info">개당 8,778원 / 5ea</span>
+                      <div class="item__price__container">
+                        <span class="item__price__sale">43,890원</span>
+                        <span class="item__price__prev">46,200원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -525,18 +613,111 @@
                   <div class="image__container">
                     <img
                       class="item__image"
-                      src="
-                https://cdn-mart.baemin.com/sellergoods/list/fce8a1cc-3156-4dac-b53e-1b65783ddc4c.jpg"
+                      src="https://cdn-mart.baemin.com/sellergoods/main/d78ee189-c2bc-43a1-98b3-bb16a287650a.jpg"
                       alt=""
                     />
+                    <div class="item__background__gray"></div>
                   </div>
                   <div class="article__item__info">
-                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <span class="info__name">
+                      [든든] 칠레산 냉동 딸기 1kg
+                    </span>
                     <div class="item__detail__container">
-                      <span class="item__detail__info">개당 18원 / 3,000ea</span>
+                      <span class="item__detail__info"
+                        >1kg 당 4,590원 / 1ea</span
+                      >
                       <div class="item__price__container">
-                        <span class="item__price">53,400원</span>
+                        <span class="item__price">4,590원</span>
                       </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="article__item">
+                  <div class="image__container">
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/sellergoods/list/d26d12fd-9563-4ad0-bbd5-192063e4f041.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 두메코 네덜란드산 돈삼겹살
+                    </span>
+                    <div class="item__detail__container">
+                      <span class="item__detail__info"
+                        >개당 165,677원 / 1ea</span
+                      >
+                      <div class="item__price__container">
+                        <span class="item__price">165,6770원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="article__item">
+                  <div class="image__container">
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/goods/45/1554345040673m0.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 사세 순살치킨 가라게 1kg 10개
+                    </span>
+                    <div class="item__detail__container">
+                      <span class="item__detail__info"
+                        >1kg 당 8,900원 / 10ea</span
+                      >
+                      <div class="item__price__container">
+                        <span class="item__price">89,000원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="article__item">
+                  <div class="image__container">
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/goods/34/%EC%97%B0%EC%96%B4_02_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info">
+                    <span class="info__name">
+                      [든든] 노르웨이 생연어필렛 trim E 1.9~2.1kg
+                    </span>
+                    <div class="item__detail__container">
+                      <span class="item__detail__info"
+                        >개당 50,600원 / 1ea</span
+                      >
+                      <div class="item__price__container">
+                        <span class="item__price">50,600원</span>
+                      </div>
+                      <img
+                        class="baemin__image"
+                        src="./public/images/다운로드.svg"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </li>
@@ -553,7 +734,9 @@
                 </div>
                 <button class="more__navigate__button">더보기 ></button>
               </div>
-              <h3 class="article__subtitle">사장님들이 많이 찾는 배달비품 모음</h3>
+              <h3 class="article__subtitle">
+                사장님들이 많이 찾는 배달비품 모음
+              </h3>
             </div>
             <ul class="article__items">
               <li class="article__item">
@@ -682,7 +865,9 @@
                     <h2 class="banner__maintitle">식자재 구매의 새로운 기준</h2>
                   </div>
                 </div>
-                <h3 class="banner__subtitle">배민상회만의 특별함을 경험해보세요</h3>
+                <h3 class="banner__subtitle">
+                  배민상회만의 특별함을 경험해보세요
+                </h3>
               </div>
               <div class="banner__button__wrapper">
                 <button class="banner__button">
@@ -730,58 +915,169 @@
             <hr class="end__line" />
           </div>
           <!-- 기획전 -->
-          <div class="baemin__banner__container">
-            <div class="banner__content">
-              <div class="banner__title__wrapper">
+          <div class="ad__baemin__banner__container">
+            <div class="ad__banner__content">
+              <div class="ad__banner__title__wrapper">
                 <div class="banner__maintitle__wrapper">
                   <h2 class="banner__maintitle">배민상회 MD기획전</h2>
                 </div>
-                <h3 class="banner__subtitle">전문MD가 엄선한 식재료만 모았어요</h3>
+                <h3 class="banner__subtitle">
+                  전문MD가 엄선한 식재료만 모았어요
+                </h3>
               </div>
-              <button class="banner__button">
+              <button class="ad__banner__button">
                 <img
                   class="banner__button__image"
                   src="//cdn-mart.baemin.com/image/inventory/2020-10-05/9dac3146-2e5b-40e2-8926-d180cf2df4ca.jpg"
                   alt="banner__button__image"
                 />
               </button>
-              <hr class="end__line" />
             </div>
+            <hr class="end__line" />
           </div>
           <!-- 기획전2 -->
-          <div class="baemin__banner__container">
-            <div class="banner__content">
-              <div class="banner__title__wrapper">
+          <div class="ad__baemin__banner__container">
+            <div class="ad__banner__content">
+              <div class="ad__banner__title__wrapper">
                 <div class="banner__maintitle__wrapper">
                   <h2 class="banner__maintitle">식재료 브랜드관</h2>
                 </div>
-                <h3 class="banner__subtitle">검증된 브랜드의 대표상품을 만나보세요</h3>
+                <h3 class="banner__subtitle">
+                  검증된 브랜드의 대표상품을 만나보세요
+                </h3>
               </div>
-              <button class="banner__button">
+              <button class="ad__banner__button">
                 <img
                   class="banner__button__image"
                   src="//cdn-mart.baemin.com/image/inventory/2020-10-05/221cb646-2070-4c6d-a8be-6ec7f7080de6.jpg"
                   alt="banner__button__image"
                 />
               </button>
-              <hr class="end__line" />
             </div>
+            <hr class="end__line" />
+          </div>
+
+          <!-- 수직으로 정렬된 아이템들 -->
+          <div class="items__container">
+            <div class="article__header">
+              <div class="article__title__wrapper">
+                <h2 class="article__title">식재료 신상품 모음</h2>
+              </div>
+              <h3 class="article__subtitle">
+                따끈한 신상품을 가장 먼저 만나보세요
+              </h3>
+            </div>
+            <ul class="vertical__items">
+              <li class="two__items">
+                <div class="horizontal__item">
+                  <div class="horizontal__item__image__wrapper">
+                    <div class="item__sale">10%</div>
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/sellergoods/main/9ee0990e-e81e-4825-ab55-413c9a06a525.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info horizontal__item__info">
+                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <div class="item__detail__container">
+                      <span class="item__detail__info"
+                        >개당 18원 / 3,000ea</span
+                      >
+                      <div class="item__price__container">
+                        <span class="item__price">53,400원</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="horizontal__item">
+                  <div class="horizontal__item__image__wrapper">
+                    <div class="item__sale">10%</div>
+                    <img
+                      class="item__image"
+                      src="https://cdn-mart.baemin.com/sellergoods/main/9ee0990e-e81e-4825-ab55-413c9a06a525.jpg"
+                      alt="item__image"
+                    />
+                    <div class="item__background__gray"></div>
+                  </div>
+                  <div class="article__item__info horizontal__item__info">
+                    <span class="info__name"> [리뉴얼] 소스컵-70파이(소) </span>
+                    <div class="item__detail__container">
+                      <span class="item__detail__info"
+                        >개당 18원 / 3,000ea</span
+                      >
+                      <div class="item__price__container">
+                        <span class="item__price">53,400원</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <hr class="end__line" />
+          </div>
+
+          <!-- 이벤트 배너 -->
+          <div class="items__container">
+            <div class="article__header">
+              <div class="article__title__wrapper">
+                <h2 class="article__title">배민상회 첫 구매 혜택</h2>
+                <button class="more__navigate__button">더보기 ></button>
+              </div>
+              <h3 class="article__subtitle">
+                고민중이시라면? 혜택 먼저 둘러보세요
+              </h3>
+            </div>
+            <div class="article__items">
+              <div class="event__banner__container">
+                <button class="event__banner banner__button">
+                  <img
+                    class="event__banner__image"
+                    src="https://cdn-mart.baemin.com/image/inventory/2020-10-05/b9bc5b61-98e9-4b7a-92fa-452e6fdcdd02.jpg"
+                    alt="event__banner__image"
+                  />
+                </button>
+                <button class="event__banner banner__button">
+                  <img
+                    class="event__banner__image"
+                    src="https://cdn-mart.baemin.com/image/inventory/2020-10-05/c13391d8-182d-4212-bb0f-acbc4fbaa534.jpg"
+                    alt="event__banner__image"
+                  />
+                </button>
+              </div>
+            </div>
+            <hr class="end__line" />
+          </div>
+
+          <!-- 샘플 배너 -->
+          <div class="sample__banner">
+            <button class="sample__banner__button banner__button">
+              <img
+                class="sample__banner__image transition__hover"
+                src="//cdn-mart.baemin.com/image/inventory/2020-09-25/0a685ba0-be70-4e1e-a219-a5f7d4adaa9b.png"
+                alt="sample__banner__image"
+              />
+            </button>
           </div>
         </article>
       </div>
     </section>
     <footer class="footer">
-      <div class="terms__menu__container">
-        <nav class="terms__menu">
-          <ul class="terms__items">
-            <li class="terms__item">공지사항</li>
-            <li class="terms__item">배민상회 이용약관</li>
-            <li class="terms__item">사장님광장 이용약관</li>
-            <li class="terms__item">전자금융거래 이용약관</li>
-            <li class="terms__item clicked">개인정보처리방침</li>
-            <li class="terms__item clicked">소비자중심경영</li>
-          </ul>
-        </nav>
+      <div class="footer__line"></div>
+      <nav class="terms__menu">
+        <ul class="terms__items">
+          <li class="terms__item">공지사항</li>
+          <li class="terms__item">배민상회 이용약관</li>
+          <li class="terms__item">사장님광장 이용약관</li>
+          <li class="terms__item">전자금융거래 이용약관</li>
+          <li class="terms__item clicked">개인정보처리방침</li>
+          <li class="terms__item clicked">소비자중심경영</li>
+        </ul>
+      </nav>
+      <div class="footer__line"></div>
+      <div class="footer__info">
+        <span>작성자 : 권기석</span>
       </div>
     </footer>
   </body>
