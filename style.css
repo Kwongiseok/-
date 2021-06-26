@@ -247,7 +247,17 @@ li {
   margin-top: 12px;
   margin-bottom: 36px;
 }
-
+.article__items__floor__container {
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+.article__items__floor {
+  display: flex;
+  flex-direction: row;
+}
+.article__items__floor:not(:last-child) {
+  margin-bottom: 36px;
+}
 .article__item {
   max-width: 144px;
   height: 100%;
@@ -277,4 +287,96 @@ li {
   background: rgb(246, 246, 246);
   width: 100%;
   margin: 0px;
+}
+
+/* baemin-banner */
+.baemin__banner__container {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 36px 68px 0px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.baemin__banner {
+  background: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 32px 64px 28px 46px;
+  margin-bottom: 36px;
+  width: 100%;
+  border-radius: 8px;
+}
+.banner__text__wrapper {
+  padding-right: 8px;
+  width: 100%;
+  flex: 1, 1, 0%;
+}
+.banner__top__wrapper {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.banner__maintitle {
+  margin: 0;
+}
+.banner__subtitle {
+  border: 0px;
+  padding: 0px;
+  margin: 4px 0px 0px;
+  color: rgb(136, 136, 136);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.banner__button__wrapper {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.banner__button {
+  display: flex;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  background: none;
+  appearance: none;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.banner__button:not(:last-child) {
+  margin-right: 32px;
+}
+.button__image__container {
+  width: 68px;
+  height: 68px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.button__image {
+  transition: all 0.3s ease 0s;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
 }
